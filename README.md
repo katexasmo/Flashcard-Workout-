@@ -1,27 +1,37 @@
 ## Inspiration
-- Back in high school, it feels as if we had much more free time to exercise — but now, a significant chunk of our time goes towards studying and sitting down in lectures. You definitely can't give up on your studies, and not necessarily exercise either — exercise has been scientifically proven to improve studying by reducing stress and improving memory. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6719811/)
-- If that's the case, why not implement and incorporate both? 
+- Back in high school, it felt as if we had much more free time to exercise — but now, a significant chunk of our time goes towards studying and sitting down in lectures. You definitely can't give up on your studies, and not necessarily forget about exercise either. In fact, exercise has been scientifically proven to improve studying by reducing stress and improving memory. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6719811/)
+- If that's the case, why not find a fun way to implement and incorporate both? 
 
 ## What it does
-- Flashcard Workout is a text-based interactive Python program where users are able to load their questions into the program, including potential correct and incorrect answers as well. 
+- Flashcard Workout! is a text-based interactive Python program where users are able to load their questions into the program, including potential correct and incorrect answers as well. 
 - Through this, MCQ-styled questions and True or False questions are then placed in the following format:
 
 ```python
-what's 2+2? #input A B C or D
+MCQ1: What's 2+2? #input A B C or D
 
 a) 3
 b) 4
 c) 38
 d) 22
+
+MCQ2: What's a shiny red fruit?
+a) Banana
+b) Peach
+c) Grapefruit 
+d) None of the above
 ```
 
-- If correct, users can move on to the next question appropriately. 
+- If answered correctly, users can move on to the next question appropriately. 
 - If answered incorrectly, users are told to do **10 jumping jacks.**
-- The incorrectly answered question will be later asked again, and if still incorrect, the number increases to **20!** Luckily, the maximum amount of jumping jacks is capped at 50, so you shouldn't be too tired. Not that you'll make that many mistakes for one question with 4 answers.... right.....
+- The incorrectly answered question will be later asked again, and if still incorrect, the number increases to **20!**
+- Luckily, the maximum amount of jumping jacks is capped at 50, so you shouldn't be too tired.
+
+-# Not that you'll make that many mistakes for one question with 4 possible answers.... right.....
 
 
 ## How we built it
-- Fully python on VS code and coffee. 
+- A WiE x ESSS Hackthon of python and coffee.
+- Zero use of AI! 
 
 ## Challenges we ran into
 - Ensuring user honesty in doing the jumping jacks — we've integrated a system where they won't be able to see their overall mark until the very end.
