@@ -15,6 +15,7 @@ c) 38
 d) 22
 
 MCQ2: What's a shiny red fruit?
+
 a) Banana
 b) Peach
 c) Grapefruit 
